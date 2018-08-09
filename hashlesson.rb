@@ -15,4 +15,7 @@ shopping_list.each do |food|
 
 end 
 
-puts shopping_hash
+# shopping_hash = {"apple"=>1, "bannana"=>4, "carrot"=>3}
+
+puts shopping_hash.keys
+puts shopping_hash.values 
